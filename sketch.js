@@ -25,13 +25,6 @@ function draw() {
 	ellipse(56, 46, 55, 55);
 	//console.log(mouseX);
 
-	//rectMode(RADIUS); // Set rectMode to RADIUS
-	//fill(255); // Set fill to white
-	//rect(50, 50, 30, 30); // Draw white rect using RADIUS mode
-
-	//rectMode(CENTER); // Set rectMode to CENTER
-	//fill(100); // Set fill to gray
-	//rect(50, 50, 30, 30); // Draw gray rect using CENTER mode
-
+	//Dette er endret nå
 
 }
