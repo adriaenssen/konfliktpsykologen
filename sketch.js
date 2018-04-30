@@ -1,10 +1,10 @@
 function setup() {
-	//createCanvas(windowWidth, windowHeight);
-	createCanvas(1000, 1000);
+	createCanvas(windowWidth, windowHeight);
+	//createCanvas(1000, 1000);
 }
 
 function draw() {
-	background(0, 0, 0); //255, 255, 255
+	background(0, 255, 0); //255, 255, 255
 
 	// Rektangel
 	fill(255, 204, 0,100); // rød, grøn, blå
@@ -29,9 +29,9 @@ function draw() {
 	//fill(255); // Set fill to white
 	//rect(50, 50, 30, 30); // Draw white rect using RADIUS mode
 
-	rectMode(CENTER); // Set rectMode to CENTER
-	fill(100); // Set fill to gray
-	rect(50, 50, 30, 30); // Draw gray rect using CENTER mode
+	//rectMode(CENTER); // Set rectMode to CENTER
+	//fill(100); // Set fill to gray
+	//rect(50, 50, 30, 30); // Draw gray rect using CENTER mode
 
 
 }
