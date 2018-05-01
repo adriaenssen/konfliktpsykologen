@@ -20,3 +20,7 @@ function draw() {
 	//Og dette er endret senere
 
 }
+
+function mousePressed() {
+	background(0, 255, 0);
+}
