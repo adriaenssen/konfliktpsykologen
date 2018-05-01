@@ -17,5 +17,6 @@ function draw() {
 	//console.log(mouseX);
 
 	//Dette er endret nå
+	//Og dette er endret senere
 
 }
