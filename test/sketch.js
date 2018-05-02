@@ -1,11 +1,13 @@
+var farge = 0;
+
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	//createCanvas(1000, 1000);
+	//createCanvas(windowWidth, windowHeight);
+	createCanvas(1000, 1000);
 	background(0, 255, 0); //rød, grøn, blå; 255, 255, 255
 }
 
 function draw() {
-	//background(0, 255, 0); //255, 255, 255
+	background(mouseX/3, mouseY/3, 0); //255, 255, 255
 
 	// Sirkel
 	fill(255, 0, 0); // rød, grøn, blå
