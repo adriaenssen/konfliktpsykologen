@@ -10,7 +10,7 @@ function draw() {
 	var fargeX = map(mouseX,0,1000,0,255);
 	var fargeY = map(mouseY,0,1000,0,255);
 
-	background(fargeX, fargeY, 0); //255, 255, 255
+	background(fargeX, fargeY, fargeX); //255, 255, 255
 
 	// Sirkel
 	fill(255, 0, 0); // rød, grøn, blå
