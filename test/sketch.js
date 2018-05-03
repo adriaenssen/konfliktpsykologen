@@ -1,4 +1,5 @@
-var farge = 0;
+var fargeX = map(mousX,0,1000,0,255);
+var fargeY = map(mousX,0,1000,0,255);
 
 function setup() {
 	//createCanvas(windowWidth, windowHeight);
@@ -7,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-	background(mouseX/3, mouseY/3, 0); //255, 255, 255
+	background(fargeX, 0, 0); //255, 255, 255
 
 	// Sirkel
 	fill(255, 0, 0); // rød, grøn, blå
