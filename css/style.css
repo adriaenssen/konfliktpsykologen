@@ -12,3 +12,12 @@ p {
   font-family: sans-serif;
   margin-left: 50px;
 }
+
+body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+canvas {
+  margin:auto;
+}
