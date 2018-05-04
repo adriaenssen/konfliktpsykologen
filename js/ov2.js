@@ -16,7 +16,17 @@ function setup() {
 }
 
 function draw() {
-	fill(col.r, col.g, col.b)
+	col.r = random(0,255);
+	col.g = random(0, 255);
+	col.b = random(0, 255);
+	spot.x = random(0, width);
+	spot.y = random(0, height);
+	noStroke();
+	fill(col.r, col.g, col.b, 100);
 	ellipse(spot.x, spot.y, 24, 24);
 	//console.log(mouseX);
+}
+
+function mousePressed() {
+	background(0);
 }
