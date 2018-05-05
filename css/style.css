@@ -1,23 +1,37 @@
-a {
-  color: red;
-  text-decoration: none;
-}
-
-h1 {
-  font-family: sans-serif;
-  margin-left: 50px;
-}
-
-p {
-  font-family: sans-serif;
-  margin-left: 50px;
-}
-
 body {
-  margin:0;
+  margin: auto;
   padding:0;
   overflow: hidden;
+  background-color: #e3e3e3;
+  font-family: sans-serif;
+  margin-left: 50px;
 }
+
+.wrap {
+  min-width: 600px;
+  width: 80%;
+  margin: auto;
+}
+
+.content {
+  background: white;
+  float: left;
+  width: 80%;
+}
+
+aside {
+  background: white;
+  float: left;
+  width: 20%;
+}
+
+
+blockquote {
+  border: 1px solid whithe;
+  text-align: center;
+  margin-left: 0;
+}
+
 canvas {
   margin:auto;
 }
