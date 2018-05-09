@@ -1,20 +1,5 @@
 /* global d3 */
 
-var graph = {
-  nodes: [
-    {name: "Dagny", age: 35},
-    {name: "Ida", age: 26},
-    {name: "Daniel", age: 36},
-    {name: "Signe", age: 39},
-    {name: "Isak", age: 35},
-    {name: "Milo", age: 11}
-  ],
-  links: [
-    {source: "Dagny", target: "Milo"},
-    {source: "Dagny", target: "Signe"}
-  ]
-};
-
 var canvas = d3.select("#network"),
   width = canvas.attr("width"),
   height = canvas.attr("height"),
@@ -29,11 +14,6 @@ var canvas = d3.select("#network"),
     .force("link", d3.forceLink()
       .id(function (d) { return d.name; }))
     .on("tick", update);
-
-//graph.nodes.forEach(function (d){
-//  d.x = Math.random() * width;
-//  d.y = Math.random() * height;
-//});
 
 simulation.nodes(graph.nodes);
 simulation.force("link")

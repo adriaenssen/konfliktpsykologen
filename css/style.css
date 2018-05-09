@@ -35,3 +35,8 @@ blockquote {
 canvas {
   margin:auto;
 }
+
+a:hover {
+  color: black;
+  letter-spacing: 3px;
+}
