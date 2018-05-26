@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>WISC-V</title>
+	<link rel="stylesheet" href="style.css" />
+
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>-->
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+
+	<script src="data.js"></script>
+	<script src="wisc.js"></script>
+	<script src="evneFelles.js"></script>
+	<script src="statLib.js"></script>
+	<script src="scetch.js"></script>
+
+</head>
+<body>
+	<h1> WISC-V RAPPORT </h1><hr/>
+	<h2> Deltestskårer </h2>
+	<input id="li"> Likheter</input> <br/>
+	<input id="of"> Ordforståelse</input><br/>
+	<input id="tm"> Terningmønster</input> <br/>
+	<input id="vp"> Visuelle puslespill</input> <br/>
+	<input id="mr"> Matriser</input> <br/>
+	<input id="fv"> Figurvekt</input> <br/>
+	<input id="rg"> Regning</input> <br/>
+	<input id="th"> Tallhukommelse</input> <br/>
+	<input id="bh"> Bildehukommelse</input> <br/>
+	<input id="tb"> Tall-bokstav-serier</input> <br/>
+	<input id="kd"> Koding</input> <br/>
+	<input id="sl"> Symbolleting</input> <br/>
+
+	<h2> Primærindekser </h2>
+	<input id="vfi"> </input>
+	<input id="vfiF"> </input>
+	<input id="vfiT"> Verbal forståelse </input> <br/>
+	<input id="vsi"> </input>
+	<input id="vsiF"> </input>
+	<input id="vsiT"> Visuospatial </input> <br/>
+	<input id="fri"> </input>
+	<input id="friF"> </input>
+	<input id="friT"> Flytende resonering </input> <br/>
+	<input id="ahi"> </input>
+	<input id="ahiF"> </input>
+	<input id="ahiT"> Arbeidshukommelse </input> <br/>
+	<input id="phi"> </input>
+	<input id="phiF"> </input>
+	<input id="phiT"> Prosesseringshastighet </input> <br/>
+	<input id="fsiq"> </input>
+	<input id="fsiqF"> </input>
+	<input id="fsiqT"> Fulskala-IQ </input> <br/>
+
+	<h2> Sekundærindekser </h2>
+	<input id="mri"> </input>
+	<input id="mriF"> </input>
+	<input id="mriT"> Mengderesonnering </input> <br/>
+	<input id="aai"> </input>
+	<input id="aaiF"> </input>
+	<input id="aaiT"> Auditiv arbeidshukommelse </input> <br/>
+	<input id="nvi"> </input>
+	<input id="nviF"> </input>
+	<input id="nviT"> Nonverbal </input> <br/>
+	<input id="gei"> </input>
+	<input id="geiF"> </input>
+	<input id="geiT"> Grunnleggende evner </input> <br/>
+	<input id="bpi"> </input>
+	<input id="bpiF"> </input>
+	<input id="bpiT"> Basal prosessering </input> <br/><hr/>
+
+	<button id="knapp"> Generer rapport</button><br/>
+	<p id="rapport"> Fyll inn over og generer rapport</p> <hr/>
+	<!--<textarea rows="4" cols="50" id="rapport"> Fyll inn over og hent rapport</textarea> <br/><hr/>-->
+
+</body>
+</html>
