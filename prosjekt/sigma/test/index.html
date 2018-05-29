@@ -1,0 +1,40 @@
+<html>
+<head>
+<style type="text/css">
+  #sigma-container {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+</style>
+</head>
+<body>
+<div id="sigma-container"></div>
+
+
+<script src="libraries/sigma/sigma.min.js"></script>
+<script src="libraries/sigma/plugins/sigma.parsers.json.min.js"></script>
+<script src="obj.js"></script>
+
+
+<script>
+s = new sigma({
+  graph: g,
+  container: 'sigma-container',
+    settings: {
+      defaultNodeColor: '#ec5148'
+    }
+});
+
+// sigma.parsers.json('wisc.json', {
+//   container: 'sigma-container',
+//   settings: {
+//     defaultNodeColor: '#ec5148'
+//   }
+// });
+</script>
+
+
+
+</body>
+</html>

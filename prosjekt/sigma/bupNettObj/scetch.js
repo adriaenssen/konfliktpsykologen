@@ -1,18 +1,8 @@
-<html>
-<head>
-<style type="text/css">
-  #sigma-container {
-    max-width: 100%;
-    height: 100%;
-    margin: auto;
-  }
-</style>
-</head>
-<body>
-<div id="sigma-container"></div>
-<script src="libraries/sigma/sigma.min.js"></script>
-<script src="libraries/sigma/plugins/sigma.parsers.json.min.js"></script>
-<script>
+// for (var i = 0; i < g.nodes.length; i++) {
+//   console.log(g.nodes[i].label);
+// }
+
+
   sigma.classes.graph.addMethod('neighbors', function(nodeId) {
     var k,
         neighbors = {},
@@ -24,12 +14,13 @@
     return neighbors;
   });
 
-  sigma.parsers.json('bup.json', {
+  var s = new sigma({
+    graph: g,
     container: 'sigma-container',
     settings: {
-      defaultNodeColor: '#ec5148'
+        defaultNodeColor: '#ec5148'
+      },
     },
-  },
   function(s) {
       // We first need to save the original colors of our
       // nodes and edges, like this:
@@ -80,6 +71,3 @@
       });
     }
   );
-</script>
-</body>
-</html>
